@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+.text_container_container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leo_text {
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    color: white;
+}
+
+.langeweile_text{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    letter-spacing: 0.5em;
+    color: darkgray;
+}
+
